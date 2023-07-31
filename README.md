@@ -1,7 +1,8 @@
 <h1 align="center">Pop Chroma</h1>
  
 
- ![Screenshot_2](https://github.com/pscamposs/popchroma/assets/106115172/2873924a-82c2-48b9-a365-ba4d38c9a1c4)
+ ![Screenshot_2](https://github.com/pscamposs/popchroma/assets/106115172/76d134ba-c37d-4a28-953b-82861322fa98)
+
  
 
 <p align="center">
