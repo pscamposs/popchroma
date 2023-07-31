@@ -1,0 +1,187 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+main button {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  margin: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #d65a31;
+  text-shadow: 1px 1px 1px #191919;
+  margin-bottom: 30px;
+}
+
+.colored {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.colored button {
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 8px;
+  font-size: 0;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  text-shadow: 1px 2px 1px #191919;
+  margin-bottom: 0;
+  background-color: transparent !important;
+}
+
+h3 {
+  color: #f39422;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#timer {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #06113c;
+  text-shadow: 1px 1px 1px #191919;
+}
+
+.vermelho {
+  background-color: #e74646;
+  color: #e74646;
+}
+
+.marrom {
+  background-color: #4f200d;
+  color: #4f200d;
+
+}
+
+.roxo {
+  background-color: #3a1078;
+  color: #3a1078;
+
+}
+
+.laranja {
+  background-color: #fd841f;
+  color: #fd841f;
+
+}
+
+.verde {
+  background-color: #41644a;
+  color: #41644a;
+
+}
+
+.azul {
+  background-color: #2366aa;
+  color: #2366aa;
+}
+
+.amarelo {
+  background-color: #f7dc59;
+  color: #f7dc59;
+
+}
+
+.rosa {
+  background-color: #ff87ab;
+  color: #ff87ab;
+}
+
+.preto {
+  background-color: #000000;
+  color: #000000;
+}
+
+.cinza {
+  background-color: #999999;
+   color: #999999;
+
+}
+
+.play {
+  background-color: #f15412;
+  color: #f2f2f2;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.play:hover {
+  background-color: #d65a31;
+}
+
+.play:active {
+  background-color: #ba4f29;
+}
+
+footer {
+  margin-top: 25px;
+  text-align: center;
+}
+
+a {
+  color: #191919;
+  font-weight: 250;
+  margin: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  main button {
+    width: 150px;
+    height: 30px;
+  }
+
+  .colored button {
+    width: 50px;
+    height: 50px;
+  }
+}
